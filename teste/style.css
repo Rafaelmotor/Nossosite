@@ -1,51 +1,65 @@
-.container {
-    display: flex;
-   
-    justify-content: space-around;
-    
-   }
-   .box{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   max-width: 250px;
-   justify-content: space-between;
-   }
-   /*exemplo de comentario*/
-   body {
-   background-image: url("https://media.istockphoto.com/id/1408394528/vector/seamless-pattern-with-soaring-birds-silhouettes.jpg?s=612x612&w=0&k=20&c=M441_0sSdI7avp0ZDPBupy-RQ_v6iTQRAFg9iR2PyDc=") ;
-   }
-   #unico{
-     color: black;
-   }
-   .rola{
-     color: black;
-   }
-   .minirola{
-     color: black;
-   }
-    
-    .box img{
-      padding: 20px;
-      width: 200px;
-      height: 150px;
-   
-    }
-   .botao{
-     text-decoration: none;
-     border: 1px solid;
-     border-radius: 3px;
-     background-color: gray;
-     padding: 2px 9px;
-     margin: 5px;
-   }
-   
-   
-   
-   @media (max-width: 1024px) {
-    .container {
-    flex-direction: column ;
-    align-items: center;
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
+
+.nome{
+color: azure;
+text-decoration: none;
 }
-   
+
+.produtos{
+color: purple;
+}
+
+.box{
+padding: 50px 0;
+}
+
+.box img{
+    max-width: 300px;
+    max-height: 250px;
+border-radius: 50%;
+}
+.image {
+display: flex;
+align-items: center;
+}
+
+.descricao p{
+font-style: oblique;
+font-size: 20px;
+color: whitesmoke;
+}
+.descricao{
+display:flex; 
+flex-direction: column;
+padding: 0 20px;
+align-items: center;
+
+}
+
+.botao{
+height: 22px;
+width: 80px;
+border: 1px solid ;
+border-radius: 8px;
+border-spacing: 2px;
+background-color:white;
+text-align: center;
+}
+
+.botao:hover{
+
+background-color: greenyellow;
+transition: 0.5ms;
+opacity: 0.7;
+}
+
+.produtos{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,
+     rgba(2,0,36,1) 0%, rgba(73,9,121,1) 35%,
+      rgba(0,212,255,1) 100%);
+ }
