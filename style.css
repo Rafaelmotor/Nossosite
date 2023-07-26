@@ -22,6 +22,7 @@ padding: 50px 0;
     max-height: 250px;
 border-radius: 50%;
 }
+
 .image {
 display: flex;
 align-items: center;
@@ -32,6 +33,7 @@ font-style: oblique;
 font-size: 20px;
 color: whitesmoke;
 }
+
 .descricao{
 display:flex; 
 flex-direction: column;
@@ -62,4 +64,15 @@ opacity: 0.7;
     background: linear-gradient(90deg,
      rgba(2,0,36,1) 0%, rgba(73,9,121,1) 35%,
       rgba(0,212,255,1) 100%);
+ }
+
+ @media (max-width: 800px) {
+    .image {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
  }
