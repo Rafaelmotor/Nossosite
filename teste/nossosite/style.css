@@ -11,8 +11,6 @@ text-decoration: none;
 
 .produtos{
 color: purple;
-align-items: center;
-justify-content: center;
 }
 
 .box{
@@ -48,13 +46,13 @@ width: 80px;
 border: 1px solid ;
 border-radius: 8px;
 border-spacing: 2px;
-background-color:greenyellow;
+background-color:white;
 text-align: center;
 }
 
 .botao:hover{
 
-background-color: red;
+background-color: greenyellow;
 transition: 0.5ms;
 opacity: 0.7;
 }
